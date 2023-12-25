@@ -9,9 +9,6 @@ import java.util.HashSet;
 public class Prog {
     public static void main(String[] args) {
 
-        //System.out.println("start");
-        //System.out.println("");
-
         ArrayList<String> lstWithDuplicate = new ArrayList<>();
         for(int i = 0; i < 20; i ++) {
             lstWithDuplicate.add("Ростов");

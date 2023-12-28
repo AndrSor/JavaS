@@ -17,6 +17,7 @@ public class Prog {
             lstWithDuplicate.add("Самара");
             lstWithDuplicate.add("Майкоп");
         }
+
         System.out.println("lstWithDuplicate:");
         System.out.println(lstWithDuplicate);
 
@@ -26,17 +27,6 @@ public class Prog {
         System.out.println("setWithoutDuplicate:");
         System.out.println(setWithoutDuplicate);
 
-//        Метод distinct - это промежуточная операция, которая фильтрует поток и позволяет передавать к следующей
-//        операции только отдельные значения (по умолчанию с использованием метода Object::equals).
-//        Java 8 Stream API
-//        Create the list with duplicates.List<String> listAll = Arrays.asList("CO2", "CH4", "SO2", "CO2", "CH4", "SO2", "CO2", "CH4", "SO2");
-//        Create a list with the distinct elements using stream.
-//        List<String> listDistinct = listAll.stream().distinct().collect(Collectors.toList());
-//        Display them to terminal using stream::collect with a build in Collector.
-//      String collectAll = listAll.stream().collect(Collectors.joining(", "));
-//      System.out.println(collectAll); //=> CO2, CH4, SO2, CO2, CH4 etc..
-//      String collectDistinct = listDistinct.stream().collect(Collectors.joining(", "));
-//      System.out.println(collectDistinct); //=> CO2, CH4, SO2
 
     }
 

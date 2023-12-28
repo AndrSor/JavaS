@@ -11,9 +11,11 @@ public class CountMapImpl<T> implements CountMap<T> {
     @Override
     public void add(T o) {
         if (map.containsKey(o)) {
+            //System.out.println(map.get(0));
             map.put(o, map.get(o) + 1);
         } else {
             map.put(o, 1);
+            System.out.println(map.get(o));
         }
     }
 
@@ -30,11 +32,14 @@ public class CountMapImpl<T> implements CountMap<T> {
     }
 
     @Override
+    //количество разных элементов
     public int size() {
         return map.size();
     }
 
     @Override
+    //Добавить все элементы из source в текущий контейнер,
+    //при совпадении ключей, суммировать значения
     public<E extends T> void addAll(CountMap<E> source) {
         for (E key : source.toMap().keySet()) {
             if (this.map.containsKey(key)) {

@@ -1,4 +1,4 @@
-package Lesson_04;
+package Lesson_05;
 
 public class Man {
 

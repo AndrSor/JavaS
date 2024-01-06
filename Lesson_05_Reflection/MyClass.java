@@ -1,4 +1,4 @@
-package Lesson_05;
+package Lesson_05_Reflection;
 
 public class MyClass {
 

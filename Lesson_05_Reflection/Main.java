@@ -1,4 +1,4 @@
-package Lesson_05;
+package Lesson_05_Reflection;
 
 import java.lang.reflect.Proxy;
 public class Main {

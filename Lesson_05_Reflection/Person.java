@@ -1,4 +1,4 @@
-package Lesson_05;
+package Lesson_05_Reflection;
 
 public interface Person {
     public void introduce(String name);

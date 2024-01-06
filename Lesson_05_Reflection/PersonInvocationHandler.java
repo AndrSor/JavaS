@@ -1,4 +1,4 @@
-package Lesson_05;
+package Lesson_05_Reflection;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
